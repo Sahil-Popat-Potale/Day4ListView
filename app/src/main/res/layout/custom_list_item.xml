@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        app:cardBackgroundColor="#101010"
+        app:cardBackgroundColor="#191919"
         app:cardCornerRadius="20dp"
         app:cardElevation="40dp">
 
@@ -23,7 +23,7 @@
                 android:id="@+id/title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Android Development"
+                android:text="Naruto Uzumaki"
                 android:textAlignment="center"
                 android:textColor="#E38686"
                 android:textSize="24sp"
@@ -35,7 +35,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:padding="3dp"
-                android:text="Learn Android Dvelopment From Scratch"
+                android:text="Main Character from OG series 'NARUTO'"
                 android:textAlignment="center"
                 android:textColor="@color/purple_200"
                 android:textSize="18sp" />

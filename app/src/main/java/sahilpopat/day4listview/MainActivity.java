@@ -18,19 +18,19 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
     String[] items_list = {
-            "Learn Android From Scratch",
-            "Build very nice Web Apps",
-            "Learn Android From Scrath",
-            "Build Very Nice Web Apps",
-            "Start New Job Path as a Web Hacker",
-            "Build Very Nice Personality and Learn More",
-            "Build Very Nice ios Apps",
-            "Design Very Nice Web Apps",
-            "Design Android Apps in photoshop",
-            "use the most puoplar App Development Fraemwork to build you apps",
-            "How to markte youe website in the Internet",
-            "Download any tyes of viedos with one click",
-            "how to write very clear code for android"
+            "Main Character from OG series 'NARUTO'",
+            "Second Main Character from 'NARUTO'",
+            "Sake brothers from 'One Piece",
+            "Main Character of Famous Anime 'One Piece'",
+            "Hero's & Villein of Demon Slayer",
+            "Main Characters of Fulllmetal Alchemist",
+            "Main Character / Villein of Death Note",
+            "Hero and main character of Sword Art Online",
+            "Hero's of Hunter X Hunter",
+            "Powerful group of people in Jujutsu Kaisen",
+            "Protagonist of Anime Dr. Stone",
+            "Half Human and Half demon Denji the 'Chainsaw Man'",
+            "Family of World class SPY, Assassin and a psychic girl with her psychic pet "
 
     };
     @Override
@@ -38,19 +38,19 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ArrayList<CustomClass> items = new ArrayList<>();
-        items.add(new CustomClass("Naruto Uzumaki","Learn Android From Scratch",R.drawable.naruto));
-        items.add(new CustomClass("Sasuke Uchiha","Build very nice Web Apps",R.drawable.sasuke));
-        items.add(new CustomClass("ACE, Sabo, Luffy","Learn Android From Scrath",R.drawable.acesabo));
-        items.add(new CustomClass("Monkey D. Luffy","Build Very Nice Web Apps",R.drawable.luffy));
-        items.add(new CustomClass("Roronoa Zoro","Start New Job Path as a Web Hacker",R.drawable.zoro));
-        items.add(new CustomClass("Human Development","Build Very Nice Personality and Learn More ",R.drawable.fullmetal));
-        items.add(new CustomClass("ios Development","Build Very Nice ios Apps",R.drawable.deathnote));
-        items.add(new CustomClass("Kirito","Design Very Nice Web Apps",R.drawable.sao));
-        items.add(new CustomClass("Android App Design","Design Android Apps in photoshop",R.drawable.hunterxhunter));
-        items.add(new CustomClass("Andriod Fraemwork","use the most puoplar App Development Fraemwork to build you apps",R.drawable.jujutsukaisen));
-        items.add(new CustomClass("Web Markting","How to markte youe website in the Internet",R.drawable.drstone));
-        items.add(new CustomClass("Videos Download","Download any tyes of viedos with one click",R.drawable.chainsawman));
-        items.add(new CustomClass("Learn to Code","how to write very clear code for android",R.drawable.spyxfamily));
+        items.add(new CustomClass("Naruto Uzumaki","Main Character from OG series 'NARUTO'",R.drawable.naruto));
+        items.add(new CustomClass("Sasuke Uchiha","Second Main Character from 'NARUTO'",R.drawable.sasuke));
+        items.add(new CustomClass("ACE, Sabo, Luffy","Sake brothers from 'One Piece",R.drawable.acesabo));
+        items.add(new CustomClass("Monkey D. Luffy","Main Character of Famous Anime 'One Piece'",R.drawable.luffy));
+        items.add(new CustomClass("Demon Slayer: Kimetsu no Yaiba","Hero's & Villein of Demon Slayer",R.drawable.demonslayer));
+        items.add(new CustomClass("Fullmetal Alchemist","Main Characters of Fulllmetal Alchemist",R.drawable.fullmetal));
+        items.add(new CustomClass("Death Note","Main Character / Villein of Death Note",R.drawable.deathnote));
+        items.add(new CustomClass("Sword Art Online","Hero and main character of Sword Art Online",R.drawable.sao));
+        items.add(new CustomClass("Hunter X Hunter","Hero's of Hunter X Hunter",R.drawable.hunterxhunter));
+        items.add(new CustomClass("Jujutsu Kaisen","Powerful group of people in Jujutsu Kaisen",R.drawable.jujutsukaisen));
+        items.add(new CustomClass("Dr. Stone","Protagonist of Anime Dr. Stone",R.drawable.drstone));
+        items.add(new CustomClass("Chainsaw Man","Half Human and Half demon Denji the 'Chainsaw Man'",R.drawable.chainsawman));
+        items.add(new CustomClass("Spy X Family","Family of World class SPY, Assassin and a psychic girl with her psychic pet",R.drawable.spyxfamily));
 
 
 
